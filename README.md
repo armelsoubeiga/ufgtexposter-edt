@@ -18,7 +18,7 @@ After downloading or cloning this repository, you must edit the file **poster.te
   % There are three options [ T | M | B ] to positioning the logos. 
   \setlogos[T]{images/ufg-logo}{images/department-logo}
 
-  % Choose one of the background options {1 | 2 | 3}. 
+  % Choose one of the background options {1 | 2 | 3| 4a| 4b| 4c}. 
   % Actually, one can select any graphic file in the directory 'backgrounds'. 
   \setbackground{1}
 
@@ -44,9 +44,9 @@ After downloading or cloning this repository, you must edit the file **poster.te
   ```
 After **compiling** the project considering the above configuration, the top of the poster must be likely the figure below.  
   
-  ![Template example](https://raw.githubusercontent.com/altinodantas/ufgtexposter/master/images/example.PNG)
+  ![Template example](https://raw.githubusercontent.com/armelsoubeiga/ufgtexposter-edt/main/images/example.PNG)
 
-A complete example of the PDF output is available [here](https://github.com/altinodantas/ufgtexposter/blob/master/images/template.png).
+A complete example of the PDF output is available [here](https://raw.githubusercontent.com/armelsoubeiga/ufgtexposter-edt/main/images/template.png).
 
 ## How modify the Backgrounds
 To change the backgrounds-edt:
