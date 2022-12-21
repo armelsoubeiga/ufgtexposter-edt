@@ -48,6 +48,13 @@ After **compiling** the project considering the above configuration, the top of 
 
 A complete example of the PDF output is available [here](https://github.com/altinodantas/ufgtexposter/blob/master/images/template.png).
 
+## How modify the Backgrounds
+To change the backgrounds-edt:
+1. Go to the folder backgrounds, you will find the source files modifiable
+2. Open in a pptx editor
+3. Change the color or add patterns as you like
+4. Save as .pdf and save in the backgrounds folder
+
 ## UFGTeXPoster on Overleaf
 This project was fully developed on the [Overleaf](https://www.overleaf.com), an online LaTeX editor that has joined with another well-known web service called ShareLatex. Thus, if you have interesting in one of the services above, you may find UFGTexPoster available in the official Overleaf's templates gallery at [here](https://www.overleaf.com/latex/templates/poster-ufg/rjwsyhyhkkfk), which is ready for use.
 
@@ -57,6 +64,6 @@ This project was fully developed on the [Overleaf](https://www.overleaf.com), an
 
 ## Disclaimer
 
-This project is a personal initiative, under open source and collaborative principles, which until now has no formal association with the Universidade Federal de Goiás (UFG) institution. Thus, this template is not an official artifact from such a university.
+This adaptation is a personal initiative, under open source and collaborative principles.
 
-If you have some comments or suggestion, let me know by sending email to tinodantas@gmail.com.
+If you have some comments or suggestion, let me know by sending email to armel.soubeiga@yahoo.fr or go to [here](https://github.com/altinodantas/ufgtexposter).
