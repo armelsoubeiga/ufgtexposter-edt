@@ -1,52 +1,11 @@
-![UFGTeXPoster logo](https://raw.githubusercontent.com/altinodantas/ufgtexposter/master/images/ufgtexposter.png)
+![UFGTeXPoster logo](https://github.com/armelsoubeiga/ufgtexposter-edt/blob/main/images/ufgtexposter.png)
 
 ## What is it?
-A Latex template to help students, professors and/or researchers from Universidade Federal de Goiás (UFG) preparing their works in posters (120x90cm). The template provides different options to change its visual aspect as well as shows examples of exposing images, tables, and bibliography references just by using common LaTex resources.
+A Latex template to design help students, teachers and/or researchers to prepare their work as posters (120x90cm). The template offers different options to modify its visual appearance and presents examples of how to display images, tables and bibliographic references using only common LaTex resources.
 
-## How to use
-After downloading or cloning this repository, you must edit the file **poster.tex** to provide the content of the poster. Firstly, take a look at "Configs" part, at the begin of such a **.tex**, and modify its parties, whether is needed. Except for more significant changes, you can customize your poster just by editing the following sections: 
-  
-  #### Appearance settings
-  ```tex
-  % Choose one color to the sections' title { ufglhblue | ufgdkblue | dkblue | black | gold }.
-  \setsectioncolor{gold} 
+This project is an adaptation of this one : [https://github.com/altinodantas/ufgtexposter](https://github.com/altinodantas/ufgtexposter)
 
-  % Define the width of the vertical rule or hide it by setting 0pt or commenting the following command.  
-  \setcolumnseprule{2pt}
-
-  % Inform the paths to the logo files or leave empty one or both parameters. 
-  % There are three options [ T | M | B ] to positioning the logos. 
-  \setlogos[T]{images/ufg-logo}{images/department-logo}
-
-  % Choose one of the background options {1 | 2 | 3| 4a| 4b| 4c}. 
-  % Actually, one can select any graphic file in the directory 'backgrounds'. 
-  \setbackground{1}
-
-  % Resize the title to keep it up to two lines // {font size}{line height}
-  \settitlesize{64pt}{68pt}
-
-  % Resize the font of the content. Default {32pt}{38pt} // {font size}{line height}
-  \setcontentfontesize{32pt}{40pt}
-  
-  % Resize the font of the emails. Default {26pt}{32pt} // {font size}{line height}
-  \setemailfontesize{42pt}{40pt}
-  ```
-  #### General data
-  ```tex
-  \title{\uppercase{DeepText: usando semântica de contexto para\\ 
-                    auto-completar palavras e gerar texto automaticamente}} 
-  \author{Altino Dantas, Anderson Soares e Celso G. Camilo-Junior} 
-  \department{Instituto de Informática - INF}
-  \email{ \text{altinoneto@inf.ufg.br, anderson@inf.ufg.br, celso@inf.ufg.br} }
-  \class{Projeto Ciência no Parque}
-  \posteryear{2018}
-  \copyrightholder{Intelligence for Software Research Group - i4Soft}
-  ```
-After **compiling** the project considering the above configuration, the top of the poster must be likely the figure below.  
-  
-  ![Template example](https://raw.githubusercontent.com/armelsoubeiga/ufgtexposter-edt/main/images/example.PNG)
-
-A complete example of the PDF output is available [here](https://raw.githubusercontent.com/armelsoubeiga/ufgtexposter-edt/main/images/template.png).
+What has changed : you can change the **Backgrounds** of your posters
 
 ## How modify the Backgrounds
 To change the backgrounds-edt:
@@ -55,15 +14,9 @@ To change the backgrounds-edt:
 3. Change the color or add patterns as you like
 4. Save as .pdf and save in the backgrounds folder
 
-## UFGTeXPoster on Overleaf
-This project was fully developed on the [Overleaf](https://www.overleaf.com), an online LaTeX editor that has joined with another well-known web service called ShareLatex. Thus, if you have interesting in one of the services above, you may find UFGTexPoster available in the official Overleaf's templates gallery at [here](https://www.overleaf.com/latex/templates/poster-ufg/rjwsyhyhkkfk), which is ready for use.
+  ![Template example](https://raw.githubusercontent.com/armelsoubeiga/ufgtexposter-edt/main/images/example.PNG)
 
-## Other UFG Latex Template
-
-- [UFGTeXPresentation](https://github.com/deuslirio/UFGTeX-Presentation)
 
 ## Disclaimer
 
 This adaptation is a personal initiative, under open source and collaborative principles.
-
-If you have some comments or suggestion, let me know by sending email to armel.soubeiga@yahoo.fr or go to [here](https://github.com/altinodantas/ufgtexposter).
